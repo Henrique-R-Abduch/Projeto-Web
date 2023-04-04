@@ -1,0 +1,126 @@
+#root {
+  display: flex;
+  font-family: "Montserrat", sans-serif;
+}
+
+#material {
+  position: fixed;
+  width: 26.9vw;
+  height: 100vh;
+  background: #240f60;
+  color: white;
+  padding: 30px;
+}
+
+#lessons {
+  width: 40vw;
+  margin-left: 30vw;
+  height: 200vh;
+}
+
+#gamification {
+  position: fixed;
+  margin-left: 70vw;
+  width: 29.5vw;
+  background: #240f60;
+  height: 100vh;
+}
+
+.user_info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 40px;
+  padding: 33px;
+}
+
+.user_info div h1 {
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.avatar_icon {
+  width: 100px;
+  height: 100px;
+}
+
+.lessonMap {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: url("../public/img/vertical.png");
+  background-position: 90px;
+}
+
+.dot {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.lesson {
+  border-radius: 50%;
+  background-image: url("https://uxwing.com/wp-content/themes/uxwing/download/e-commerce-currency-shopping/us-dollar-coin-color-icon.png");
+  background-size: cover;
+  width: 100px;
+  height: 100px;
+  box-shadow: 1px 1px 7px 1px rgba(0, 0, 0, 0.3);
+  margin: 40px 0;
+  cursor: pointer;
+}
+
+.lesson:hover {
+  box-shadow: 1px 1px 50px 1px rgba(225, 225, 255, 0.5);
+}
+
+.module_title {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px 0;
+  text-align: center;
+  color: white;
+}
+
+.module_Title_Section {
+  width: 100%;
+  height: 40px;
+}
+
+.material_description {
+  margin: 20px;
+  padding: 15px;
+}
+
+.material_description h1 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.material_description p {
+  font-size: 16px;
+  margin-top: 40px;
+}
+
+.material_description button {
+  background-color: yellow;
+  padding: 8px;
+  color: black;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.flex_end {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 15px;
+}
+
+.material_description button:hover {
+  background-color: #f5f5f5;
+}

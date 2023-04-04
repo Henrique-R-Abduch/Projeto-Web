@@ -1,0 +1,122 @@
+#root {
+  background: url("../img/bgGif.gif");
+  background-size: cover;
+  font-family: "Montserrat", sans-serif;
+  background-repeat: no-repeat;
+}
+
+#container {
+  width: 1200px;
+  margin: 15% auto;
+  text-align: center;
+  color: white;
+}
+
+.title {
+  font-size: 60px;
+  color: #fdf500;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.subtitle {
+  margin-top: 5px;
+  font-size: 20px;
+  color: #37ebf3;
+  font-weight: 400;
+}
+
+#form_wrapper {
+  width: 450px;
+  margin: 30px auto;
+  text-align: left;
+  padding: 10px;
+  background-image: linear-gradient(327deg, #240f60 71%, #81187c);
+  color: white;
+  border-radius: 8px;
+}
+
+#form_wrapper_flex {
+  display: flex;
+  gap: 35px;
+  padding: 15px;
+}
+
+.avatar_icon {
+  width: 60px;
+  height: 60px;
+}
+
+#form_wrapper h3 {
+  font-size: 20px;
+  text-align: center;
+}
+
+.icons_section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.icons_section > p {
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+.social_icons {
+  display: flex;
+  gap: 10px;
+}
+
+.social_icons img {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+#form > input {
+  width: 100%;
+  height: 25px;
+  margin-bottom: 10px;
+}
+
+.form_button {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.form_button button {
+  padding: 5px;
+  font-size: 15px;
+}
+
+.form_checkbox {
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.form_checkbox input {
+  margin: 0;
+}
+
+.create_account {
+  color: #fdf500;
+}
+
+.create_account a {
+  color: #37ebf3;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.form_button button {
+  background-color: yellow;
+  padding: 8px;
+  color: black;
+  border-radius: 6px;
+  font-size: 18px;
+  cursor: pointer;
+}
